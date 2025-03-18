@@ -5,7 +5,7 @@ permalink: /about/
 ---
 # About Me
 
-<img src="/images/headshot.jpg" class="left-image" alt="Photo of Sean Horsfield, who trades under the name techLocal IT">
+![Photo of Sean Horsfield, who trades under the name techLocal IT](/images/headshot.jpg){: .align-left .profile}
 
 A few years ago, I was working in a Bristol store for a mobile phone network. Regularly, customers would come in seeking help with their devices. Although it was not a service the company expected us to provide, I always jumped at the opportunity to aid these members of the public by explaining the issues, and showing them how I fixed it.
 
