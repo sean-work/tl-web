@@ -13,7 +13,7 @@ body {
 
 	&:after {
 		z-index: -1;
-		background: white;
+		background: $techbg;
 		content: "";
 		display: block;
 		width: 100%;
@@ -195,7 +195,7 @@ POST STYLING
 		margin-top: 2rem;
 
 		&:before {
-			background: white;
+			background: $techbg;
 			content: "";
 			display: block;
 			width: 100%;
@@ -269,21 +269,5 @@ CONTACT PAGE STYLING
 		width: 48%;
 		float: right;
 		margin-right: 0;
-	}
-}
-
-/***************
-DARK THEME STYLING
-***************/
-
-@media (prefers-color-scheme: dark) {
-	body {
-		background-color: black;
-		color: white;
-	}
-
-	.content:after,
-	.post .featuredImage:before {
-		background: black;
 	}
 }
