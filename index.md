@@ -11,7 +11,7 @@ I am an insured professional who can give support in using mobile phones, tablet
 
 ### Happy to help in-person or remotely.
 
-![Image 1](/images/headshot.jpg)
+<img src="/images/headshot.jpg" class="right-image" alt="Photo of Sean Horsfield, who trades under the name techLocal IT">
 
 My name is Sean Horsfield and I'm a Somerset local who grew up here.  
 I have previous professional experience helping my local community with their mobile phones, tablets and email.  

@@ -33,6 +33,24 @@ body {
 	padding: 0;
 }
 
+// Media Styling
+img,
+video,
+audio,
+iframe,
+object {
+	max-width: 70%;
+}
+
+.left-image {
+	max-width: 33%;
+	float: left;
+}
+
+.left-image {
+	max-width: 33%;
+	float: right;
+}
 
 /***************
 HOMEPAGE STYLING
