@@ -16,7 +16,8 @@ body {
 	font-family: $serif;
 	line-height: 1.75;
 	font-size: 112.5%; // 18px base font size
-	color: $black;
+	color: $white;
+	background-color: $techbg;
 	overflow-x: hidden;
 	margin: 0;
 
@@ -43,7 +44,7 @@ video,
 audio,
 iframe,
 object {
-	max-width: 100%;
+	max-width: 50%;
 }
 
 // Layout
