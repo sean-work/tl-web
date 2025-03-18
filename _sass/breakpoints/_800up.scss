@@ -44,13 +44,17 @@ object {
 
 .align-left {
 	float: left;
+	margin-right:1rem;
+	margin-bottom:1rem;
 }
 
 .align-right {
 	float: right;
+	margin-right:1rem;
+	margin-bottom:1rem;
 }
 
-.profile {
+.in-line-scale {
 	max-width: 33%;
 }
 
