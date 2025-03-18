@@ -1,0 +1,38 @@
+title: techLocal IT
+description: Providing Somerset locals technical support and training!
+
+url: https://www.techlocalit.co.uk
+# Only necessary when hosting your site in a sub-directory. Project sites hosted on GitHub Pages are the common use-case of this variable.
+baseurl: /tl-web
+paginate_path: "blog/page:num/"
+permalink: blog/:title/
+
+# Header Option
+# header: large
+
+sass:
+    style: compressed
+
+markdown: kramdown
+highlighter: rouge
+plugins: [jekyll-paginate]
+paginate: 5
+
+navigation:
+    - title: Home
+      url: /
+    - title: About Me
+      url: /about
+    - title: Services
+      url: /services
+    - title: Contact
+      url: /contact
+
+social:
+    github: sean-work
+#    twitter: replace
+    facebook: 61568987705916
+    email: support@techlocalit.co.uk
+#    linkedin: replace
+#    youtube: replace
+#    tumblr: replace
