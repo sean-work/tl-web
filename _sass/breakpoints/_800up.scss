@@ -7,9 +7,15 @@ body {
 }
 
 .content {
-	padding-top: 0;
-	position: relative;
-	z-index: 1;
+//	padding-top: 0;
+//	position: relative;
+//	z-index: 1;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	padding: 0;
+	margin: 0;
+	list-style: none;
 
 	&:after {
 		z-index: -1;
@@ -41,19 +47,6 @@ iframe,
 object {
 	max-width: 70%;
 }
-
-.align-left {
-	float: left;
-}
-
-.align-right {
-	float: right;
-}
-
-.in-line-scale {
-	max-width: 33%;
-}
-
 
 /***************
 HEADER STYLING
