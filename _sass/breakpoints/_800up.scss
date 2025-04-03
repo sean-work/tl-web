@@ -7,15 +7,9 @@ body {
 }
 
 .content {
-//	padding-top: 0;
-//	position: relative;
-//	z-index: 1;
-	display: flex;
-	flex-flow: row wrap;
-	justify-content: space-around;
-	padding: 0;
-	margin: 0;
-	list-style: none;
+	padding-top: 0;
+	position: relative;
+	z-index: 1;
 
 	&:after {
 		z-index: -1;
@@ -33,10 +27,14 @@ body {
 }
 
 .container {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
 	max-width: 880px;
 	margin-left: auto;
 	margin-right: auto;
 	padding: 0 20px;
+	list-style: none;
 }
 
 // Media Styling
